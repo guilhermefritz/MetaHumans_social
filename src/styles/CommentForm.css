@@ -1,0 +1,48 @@
+/* Styles/CommentForm.css */
+
+/* Lista de comentários */
+.comment-list {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.comment-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Formulário de comentário */
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/* Campo de texto */
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  min-height: 50px;
+  resize: vertical;
+}
+
+/* Botão de comentar */
+.comment-button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-button:hover {
+  background-color: #218838;
+}
